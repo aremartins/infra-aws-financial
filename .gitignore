@@ -1,0 +1,32 @@
+# Terraform files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+*.tfstate.lock.hcl
+.terraform/
+
+# Terraform variable files
+terraform.tfvars
+
+# AWS CLI credentials (se estiverem no projeto, o que não é comum)
+.aws/credentials
+.aws/config
+
+# Log files
+*.log
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# SSH keys and certificates
+*.pem
+*.key
+id_rsa
+id_rsa.pub
